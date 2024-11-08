@@ -14,12 +14,14 @@ module.exports = function (api) {
           },
         ],
       ],
+      plugins: ['nativewind/babel'],
     };
   }
 
   return {
     presets: [
       ['module:@react-native/babel-preset', { useTransformReactJSX: true }],
+      'nativewind/babel',
     ],
   };
 };
