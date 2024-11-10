@@ -31,7 +31,7 @@ async function createConfig() {
   });
 
   return withNativeWind(nxConfig, {
-    input: 'global.css',
+    input: './src/app/global.css',
   });
 }
 
